@@ -1,6 +1,6 @@
 ---
 
- - name: 'Mariad-server Installing'
+ - name: 'Mariadb-server Installing'
    yum: name=MySQL-python,mariadb-server state=present
     
  - name: 'Mariadb-server Restarting/Enabling '
